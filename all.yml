@@ -1,0 +1,21 @@
+services:
+  - stack: jenkins
+    domains:
+      - jenkins.kloudcover.com
+  - stack: indietools
+    domains:
+      - staging.indietools.com
+  - stack: mysql
+    domains:
+      - maceaver.mine.nu
+  - stack: tarynchristine
+    domains:
+      - staging.tarynchristinephotography.com
+      - tarynchristine.mine.nu
+  - stack: eyecandy-prod
+    domains:
+      - www.eyecandyskateboards.com
+      - staging.eyecandyskateboards.com
+  # - stack: kloudcover
+  #   domains:
+  #     - www.kloudcover.com
